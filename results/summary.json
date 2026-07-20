@@ -1,0 +1,20 @@
+{
+  "best_model": "PMWM (full)",
+  "test_samples_seen": 78804,
+  "test_samples_held_out": 26268,
+  "ridge_alpha": 0.1,
+  "pmwm_rmse_z": 0.9103806182277324,
+  "backbone_rmse_z": 0.9187243010371627,
+  "relative_rmse_improvement_over_backbone_percent": 0.9081813553871385,
+  "pmwm_acc": 0.5866870557074642,
+  "pmwm_crps_z": 0.45917612314224243,
+  "coverage_90": 0.8970626491041064,
+  "event_auroc": 0.8655463993128638,
+  "event_auprc": 0.3262014357665571,
+  "retrieval_ndcg_at_k": 0.6959355528211842,
+  "bootstrap_mse_reduction_ci": [
+    0.014439582033082843,
+    0.016203710716217755
+  ],
+  "backward_transfer": -0.0010001110961547766
+}

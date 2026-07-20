@@ -1,0 +1,2 @@
+mse_reduction_z,ci_lower,ci_upper,bootstrap_probability_improvement,n_week_blocks,replicates
+0.015284240245819092,0.014439582033082843,0.016203710716217755,1.0,939,400

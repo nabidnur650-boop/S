@@ -1,0 +1,384 @@
+{
+  "passed": true,
+  "checks_passed": 93,
+  "checks": [
+    {
+      "check": "ERA5 cache is a complete 6-hour stream",
+      "passed": true
+    },
+    {
+      "check": "All normalized model inputs are finite",
+      "passed": true
+    },
+    {
+      "check": "Expected 93,504 times (through 2022) and 16 anchors",
+      "passed": true
+    },
+    {
+      "check": "Static memory contains training-era observations only",
+      "passed": true
+    },
+    {
+      "check": "Memory bank respects fixed 1,024-slot capacity",
+      "passed": true
+    },
+    {
+      "check": "All memory keys are finite",
+      "passed": true
+    },
+    {
+      "check": "Leaderboard includes strong deterministic and memory baselines",
+      "passed": true
+    },
+    {
+      "check": "All leaderboard errors are finite",
+      "passed": true
+    },
+    {
+      "check": "Per-model, horizon, and target metrics are complete",
+      "passed": true
+    },
+    {
+      "check": "At least 15 journal figures were generated",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig01_system_architecture.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig01_system_architecture.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig02_data_coverage_and_anchors.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig02_data_coverage_and_anchors.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig03_multivariate_era5_stream.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig03_multivariate_era5_stream.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig04_seasonal_climatology.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig04_seasonal_climatology.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig05_event_discovery_timeline.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig05_event_discovery_timeline.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig06_training_convergence.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig06_training_convergence.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig07_forecast_leaderboard.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig07_forecast_leaderboard.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig08_skill_by_horizon.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig08_skill_by_horizon.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig09_target_horizon_improvement.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig09_target_horizon_improvement.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig10_spatial_skill_map.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig10_spatial_skill_map.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig11_extreme_event_case_study.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig11_extreme_event_case_study.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig12_predictive_intervals.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig12_predictive_intervals.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig13_probabilistic_calibration.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig13_probabilistic_calibration.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig14_retrieval_quality.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig14_retrieval_quality.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig15_memory_embedding.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig15_memory_embedding.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig16_temporal_memory_graph.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig16_temporal_memory_graph.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig17_memory_ablation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig17_memory_ablation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig18_memory_efficiency_pareto.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig18_memory_efficiency_pareto.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig19_continual_learning_matrix.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig19_continual_learning_matrix.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig20_zero_shot_domain_adaptation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig20_zero_shot_domain_adaptation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig21_missing_value_imputation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig21_missing_value_imputation.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig22_residual_diagnostics.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig22_residual_diagnostics.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig23_bootstrap_effects.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig23_bootstrap_effects.png",
+      "passed": true
+    },
+    {
+      "check": "Figure exists and is non-trivial: fig24_empirical_scorecard.png",
+      "passed": true
+    },
+    {
+      "check": "Figure has publication-scale pixels: fig24_empirical_scorecard.png",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig01_system_architecture.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig02_data_coverage_and_anchors.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig03_multivariate_era5_stream.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig04_seasonal_climatology.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig05_event_discovery_timeline.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig06_training_convergence.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig07_forecast_leaderboard.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig08_skill_by_horizon.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig09_target_horizon_improvement.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig10_spatial_skill_map.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig11_extreme_event_case_study.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig12_predictive_intervals.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig13_probabilistic_calibration.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig14_retrieval_quality.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig15_memory_embedding.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig16_temporal_memory_graph.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig17_memory_ablation.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig18_memory_efficiency_pareto.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig19_continual_learning_matrix.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig20_zero_shot_domain_adaptation.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig21_missing_value_imputation.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig22_residual_diagnostics.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig23_bootstrap_effects.pdf",
+      "passed": true
+    },
+    {
+      "check": "Vector PDF exists: fig24_empirical_scorecard.pdf",
+      "passed": true
+    },
+    {
+      "check": "Complete notebook sequence exists",
+      "passed": true
+    },
+    {
+      "check": "Notebook executed without skipped code cells: 00_research_design.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook has no execution errors: 00_research_design.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook executed without skipped code cells: 01_streaming_era5.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook has no execution errors: 01_streaming_era5.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook executed without skipped code cells: 02_model_and_memory.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook has no execution errors: 02_model_and_memory.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook executed without skipped code cells: 03_evaluation_and_figures.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook has no execution errors: 03_evaluation_and_figures.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook executed without skipped code cells: 04_results_report.ipynb",
+      "passed": true
+    },
+    {
+      "check": "Notebook has no execution errors: 04_results_report.ipynb",
+      "passed": true
+    }
+  ],
+  "key_artifact_hashes": {
+    "feature_store": "f5c698902a4d28c79213384b11f72100e8af03cbcfb5a4ebf3906d7da0ffe7fc",
+    "model": "f883dcd15d8f795543fa21aca4249e2916d2c9a125fce5004767bdd80a9aa6aa",
+    "memory": "15743bc4289be25d6fdb7517d3243f24555f720d4c7ce58c219e12f93268f698",
+    "evaluation": "42c65f7aad96b1518db5e92c9a2af9a1871959c3ce35e372cdb5edf222ce1f45"
+  }
+}
